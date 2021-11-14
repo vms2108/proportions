@@ -121,8 +121,16 @@
               "devServerTarget": "proportions:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "proportions"
+    }
+  },
+  "defaultProject": "proportions",
+  "cli": {
+    "analytics": "0046d516-6bb4-45d2-a972-c5e55334aea3"
+  }
 }
